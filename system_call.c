@@ -19,11 +19,11 @@
  * @return     0 
  */
 int main() {
-  system("echo \"processus 1 \""); 
-  system("sleep 10"); // processus 2
-  system("echo \"processus 3 \""); 
-  system("sleep 5"); // processus 4
-  system("echo \"processus 5 \""); 
+  system("echo \"processus 1 \"");        //écrit "processus 1"
+  system("sleep 10"); // processus 2      //attend 10 secondes
+  system("echo \"processus 3 \"");        //écrit "processus 3"
+  system("sleep 5"); // processus 4       //attend 5 secondes
+  system("echo \"processus 5 \"");        //écrit "processus 5"
 
   printf("\n terminé \n");
   return 0;
